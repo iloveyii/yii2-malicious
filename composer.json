@@ -1,0 +1,24 @@
+{
+    "name": "malicious/app-info",
+    "description": "Extension to reveal important information about the application",
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "license": "CC-0",
+    "authors": [
+        {
+            "name": "Hazrat Ali",
+            "email": "iloveyii@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "malicious\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "malicious\\Bootstrap"
+    },
+    "minimum-stability": "dev"
+}
